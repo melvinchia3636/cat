@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, #root, .main {
+  height: 100vh;
+  height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+* {
+  font-family: Quicksand;
+  transition: background-color .6s, color .2s
+}
+
+*:focus {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
